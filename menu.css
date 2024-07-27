@@ -1,3 +1,6 @@
+* {
+  display: block;
+}
 body {
     background-color: antiquewhite;
     background-image: url(./pics/menu.jpg);
@@ -22,3 +25,18 @@ img {
       text-shadow: 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue, 0 0 80px blue;
     }
      }
+     .box-one { 
+      border: #fff solid;
+      width: 10%;
+     }
+     .links-list a {
+      background-color: rgb(179 57 81);
+      color: #fff;
+      text-decoration: none;
+      padding: 1em 2em;
+    }
+    
+    .links-list a:hover {
+      background-color: rgb(66 28 40);
+      color: #fff;
+    }
